@@ -1,0 +1,148 @@
+<section id="invitacion-{{data.id_tipo_invitacion}}" class="d-flex flex-wrap w-100">
+    
+    <div class="container-fluid container-formulario container-trabaja-en-dir invitacio inverteix">
+
+        <div class="row-fluid">
+
+            <div class="col-xl-6 eltexto d-lg-block d-flex flex-wrap">  
+{#                <div class="d-xs-block campaign-image"></div>          #}
+                {{data.titulo_contenido_landing_invitacion}}
+                <hr style="width:100%">
+                {{data.texto_contenido_landing_invitacion}}
+            </div>   
+
+            <div class="col-xl-5 col-md-7 col-12 form-trabaja d-flex flex-wrap"> 
+
+                <div class="bloque-titulo w-100">
+                	<div class="form-title">     
+                    	<h2>{% trans 'SOL·LICITA INFORMACIO' %}:</h2>
+                	</div>
+                    <div class="triangle-down"></div>
+                </div>            
+                 {{formulario}}
+            </div> 
+
+        </div> 
+
+    </div>  
+    
+</section>
+<style>
+
+#invitacion-11 .invitacio {
+	background: rgba(62,119,162,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(62,119,162,1) 0%, rgba(0,0,0,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(62,119,162,1)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(62,119,162,1) 0%, rgba(0,0,0,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(62,119,162,1) 0%, rgba(0,0,0,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(62,119,162,1) 0%, rgba(0,0,0,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(62,119,162,1) 0%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e77a2', endColorstr='#000000', GradientType=1 );
+}
+#invitacion-11 .form-title,
+#invitacion-11 .form-submit{
+	background: #57A9E5;
+	color:#fff;
+}
+#invitacion-11 .form-trabaja a{
+	color: #57A9E5;
+}
+#invitacion-11 hr{
+	border-color: #57A9E5;
+}
+#invitacion-11 .triangle-down:after{
+    border-top: 90px solid #57A9E5!important;
+}
+#inverteix-exclusive-form {
+    padding: 65px 35px 20px 35px;
+    background: rgba(0,0,0,0.75);
+    border: 1px solid #3a3a3a;
+    position: relative;
+    top: -47px;
+    z-index: 0;
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+
+#invitacion-12 .invitacio {
+	background: rgba(5,134,233,1);
+	background: -moz-linear-gradient(top, rgba(5,134,233,1) 0%, rgba(0,0,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(5,134,233,1)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(5,134,233,1) 0%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(5,134,233,1) 0%, rgba(0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(5,134,233,1) 0%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(5,134,233,1) 0%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0586e9', endColorstr='#000000', GradientType=0 );
+}
+#invitacion-12 .form-title,
+#invitacion-12 .form-submit{
+	background: #0585E9;
+	color:#fff;
+}
+#invitacion-12 .form-trabaja a{
+	color: #0585E9;
+}
+#invitacion-12 hr{
+	border-color: #0585E9;
+}
+#invitacion-12 .triangle-down:after{
+    border-top: 90px solid #0585E9!important;
+}
+#inverteix-prestige-form {
+    padding: 65px 35px 20px 35px;
+    background: rgba(0,0,0,0.75);
+    border: 1px solid #3a3a3a;
+    position: relative;
+    top: -47px;
+    z-index: 0;
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+#invitacion-13 .form-title,
+#invitacion-13 .form-submit{
+	background: #0585E9;
+	color:#fff;
+}
+#invitacion-13 .form-trabaja a{
+	color: #0585E9;
+}
+#invitacion-13 hr{
+	border-color: #0585E9;
+}
+#invitacion-13 .triangle-down:after{
+    border-top: 90px solid #0585E9!important;
+}
+#inverteix-dlife-form {
+    padding: 65px 35px 20px 35px;
+    background: rgba(0,0,0,0.75);
+    border: 1px solid #3a3a3a;
+    position: relative;
+    top: -47px;
+    z-index: 0;
+    border-radius: 0px 0px 4px 4px;
+}
+
+@media (min-width:991px) {
+#invitacion-13 .invitacio {
+                background-image: url(https://kxrbe.stripocdn.email/content/guids/CABINET_e8666f233afde910b0612524b188e3ca/images/92531604914004739.jpg);
+    background-size: cover;
+}
+}
+
+@media (min-width:468px and max-width:990px) {
+#invitacion-13 .invitacio {
+                background-image: url(https://kxrbe.stripocdn.email/content/guids/CABINET_e8666f233afde910b0612524b188e3ca/images/31941604914004702.jpg);
+    background-size: cover;
+}
+}
+@media (max-width:467px) {
+#invitacion-13 .invitacio {
+                background-image: url(https://kxrbe.stripocdn.email/content/guids/CABINET_e8666f233afde910b0612524b188e3ca/images/6321604914005720.jpg);
+    background-size: cover;
+}
+}
+#invitacion-13 .invitacio div div p.pretitle {font-size: 2rem;font-style: italic;}
+
+</style>
